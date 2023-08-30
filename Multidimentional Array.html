@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> java script</title>
+<script>
+          var a = [
+                       ["Harry", 18, "Male", "BSc"],
+                       ["Tom", 19, "Male", "BCA"],
+                       ["Sara", 18, "Female", "B.Com"],
+                       ["Manvi", 21, "Female", "Btech"],
+                       ["Jurry", 21, "Female", "Btech"]
+
+
+          ];
+          document.write(a.length);
+          document.write("<table border='1px' cellspacing='0'>");
+      for (var i = 0; i < a.length; i++) {
+          document.write("<tr>");
+        for (var j = 0; j < 4; j++) {
+
+        document.write("<td>"+ a[i][j] + "</td>");
+      }
+      document.write("<br>");
+      document.write("</tr>");
+    }
+      document.write("</table>");
+</script>
+</head>
+<body>
+</body>
+</html>
